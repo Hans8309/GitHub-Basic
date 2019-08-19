@@ -16,7 +16,7 @@ GitHub教程 Git Bash详细教程（上）  https://blog.csdn.net/qq_36667170/ar
    git config --global user.name "Your Name"（注意前边是“- -global”，有两个横线）  
    git config --global user.email "email@example.com"     
    不放心的话，验证确认用户名和邮箱   
-   git config --global user.name
+   git config --global user.name  
    git config --global user.email
    
    
