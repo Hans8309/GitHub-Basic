@@ -19,7 +19,26 @@ GitHub教程 Git Bash详细教程（上）  https://blog.csdn.net/qq_36667170/ar
    git config --global user.name  
    git config --global user.email  
 5. 创建SSH Key （如果你电脑上有了，你就可以直接跳过这一步）  
+   输入  $ ~/.ssh   查看电脑上SSH Key的存放目录，默认目录是本地用户文件夹，  
+   打开看看有一个目录 .ssh,打开这个文件夹，看看里边是否有SSH Key文件.  
    首先创建一个SSH，在Git Bash中输入：       
-   '''$ ssh-keygen -t rsa -C “你的邮箱”
+   $ ssh-keygen -t rsa -C "你的邮箱"
+   然后连续按3次回车确认，不要输入任何字符  
+   这时看到目录 .ssh 中已经生成2个文件， id_ras, id_rsa.pub   
+6. 添加SSH Key到GitHub   
+   首先打开Github网页, ........    
+7. 测试一下该SSH key   
+   在git Bash 中输入以下代码:  
+   $ ssh -T git@github.com   
+   注意是git@github.com，不是你的邮箱。  
    
+8. 克隆一个远程库到本地  
+    在本地新建一个文件夹，打开这个文件夹，点击右键菜单，选择菜单" Git Bash Here"，打开Git Bash窗体  
+    $ git init
+    初始化后，文件夹里多了个隐藏目录  .git  
+    克隆远程项目    
+    $ git clone git@github.com:Hans8309/HelloGolang.git
+    
+    
+
    
