@@ -17,6 +17,9 @@ GitHub教程 Git Bash详细教程（上）  https://blog.csdn.net/qq_36667170/ar
    git config --global user.email "email@example.com"     
    不放心的话，用下面两行命令验证确认用户名和邮箱   
    git config --global user.name  
-   git config --global user.email
+   git config --global user.email  
+5. 创建SSH Key （如果你电脑上有了，你就可以直接跳过这一步）  
+   首先创建一个SSH，在Git Bash中输入：       
+   '''$ ssh-keygen -t rsa -C “你的邮箱”
    
    
