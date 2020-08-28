@@ -38,8 +38,7 @@ GitHub教程 Git Bash详细教程（上）  https://blog.csdn.net/qq_36667170/ar
     初始化后，文件夹里多了个隐藏目录  .git  
     克隆远程项目    
     $ git clone git@github.com:Hans8309/HelloGolang.git
-    
-    
-9.交互式模拟练习git的网站：  https://learngitbranching.js.org/   
+   
+9. 交互式模拟练习git的网站：  https://learngitbranching.js.org/   
 
 
