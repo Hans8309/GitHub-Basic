@@ -33,12 +33,15 @@ GitHub教程 Git Bash详细教程（上）  https://blog.csdn.net/qq_36667170/ar
    注意是git@github.com，不是你的邮箱。  
    
 8. 克隆一个远程库到本地  
-    在本地新建一个文件夹，打开这个文件夹，点击右键菜单，选择菜单" Git Bash Here"，打开Git Bash窗体  
-    $ git init
-    初始化后，文件夹里多了个隐藏目录  .git  
-    克隆远程项目    
-    $ git clone git@github.com:Hans8309/HelloGolang.git
-   
+    打开一个本地目录，例如d:\code，在空白处点击右键菜单，选择菜单" Git Bash Here"，打开Git Bash窗体.
+    执行命令： $ git clone git@github.com:Hans8309/LearnGolang.git
+    将会新建一个和远程库同名的目录，例如LearnGolang，并将项目下载到本地库目录中，关闭Git Bash窗体.
+    打开本地库，就会看到文件夹里有了克隆下载的库文件，还有个隐藏目录  .git 
+    在本地库目录中，在空白处点击右键菜单，选择菜单" Git Bash Here"，重新打开Git Bash窗体
+    执行$ git remote -v，就会出现2行提示如下，说明库已经连接正常，可以pull和push了
+        origin  git@github.com:Hans8309/LearnGolang.git (fetch)
+        origin  git@github.com:Hans8309/LearnGolang.git (push)
+           
 9. 交互式模拟练习git的网站：  https://learngitbranching.js.org/   
 
 
